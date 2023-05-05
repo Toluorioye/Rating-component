@@ -1,0 +1,93 @@
+/* * {
+    box-sizing: border-box;
+    
+} */
+body {
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+  font-size: 15px;
+ margin: 0 1.25rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+.card {
+ padding: 1.25rem;
+background-color:  hsl(213, 19%, 18%);
+border-radius: 10px;
+width: 24%;
+}
+
+    
+#favicon {
+    background-color: hsl(212, 17%, 20%);
+    padding: 5px;
+    border-radius: 50%;
+}
+#heading {
+    color: hsl(0, 0%, 100%);
+}
+ p {
+    color: hsl(217, 12%, 63%);
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.numbuttons button {
+    color:hsl(217, 12%, 63%) ;
+    background-color:hsl(212, 17%, 20%) ;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    height: 40px;
+    margin: 10px;
+    
+}
+.submit {
+    margin-top: 10px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+   width: 100%;
+   
+}
+/* hover */
+.numbuttons button:hover {
+    background-color:hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+.numbuttons button:active {
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    }
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+.hide {
+display: none;
+}
+.cardcontainer2 {
+text-align: center;
+}
+.card2{
+    width: 20%;
+}
+#ratingdeclaration{
+    color:hsl(25, 97%, 53%);
+    background-color:hsl(212, 17%, 20%) ;
+    border-radius: 20px;
+    width: 100%;
+    padding: 4px 8px;
+}
+@media (max-width: 375px) {
+    .card {
+        width:5%;
+        background-color: rgb(57, 57, 207);
+    }
+    }
